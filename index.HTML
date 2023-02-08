@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <style>
+        body {
+            background-color: #D3D3D3;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+        }
+
+        .left h2 {
+            display: inline;
+            margin-left: 20px;
+        }
+
+        .left {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+        .Outer-div{
+            display: flex;
+            width: 100%;
+            border: 10px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        legend{
+            font-size: 23px;
+            font-family: "algerian";
+        }
+        .left-div{
+width: 45%;
+height: 550px;
+border: 15px;
+text-align: center;
+margin-top: 140px;
+color: #87339C;
+        }
+        .right-div{
+width: 45%;
+height: 550px;
+background-image:url("./iphone.png");
+border: 10px;
+background-size:cover ;
+        background-position:center ;
+} 
+fieldset{
+    margin-bottom: 40px;
+   
+}
+.form{
+    margin-top: 60px;
+}
+.name{
+    margin: 16px;
+}
+.contact{
+    margin: 16px;
+
+}
+.email{
+    margin: 16px;
+  
+}
+.checkbox{
+    margin-bottom: 20px;
+
+}
+.submit{
+    color: #87339C;
+    padding: 8px;
+    font-size:20px;
+}
+.checkbox-text{
+    color: black;
+}
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <img src="https://th.bing.com/th/id/R.d5911accda9ed441cc810796b83744e3?rik=mks7kpaaDTQv7Q&riu=http%3a%2f%2fwww.transparentpng.com%2fthumb%2fapple-logo%2fTZ2kss-apple-logo-picture.png&ehk=0e3bMpR4wY%2bBgr6Bi5NH4jX2wZny3AtXce7ux466%2fJ8%3d&risl=&pid=ImgRaw&r=0"
+                alt="">
+            <h2>Apple - Offical Site</h2>
+        </div>
+
+
+    </nav>
+    <div class="Outer-div"> 
+        <div class="left-div">
+<form action="">
+    <fieldset>
+        <legend>
+           <i>  Enquiry Form</i>
+        </legend>
+        <span><i>Name </i> </span> <input type="text" class="name">  
+   <br>  
+   <span><i>Contact </i></span>  <input type="number" class="contact">
+   <br>
+   <span><i>Email </i></span> <input type="email" class="email"> 
+   <br>        
+   <br>
+   <span>Interests</span>
+   <input type="checkbox" class="checkbox"><span class="checkbox-text">Iphone</span>       
+   <input type="checkbox"class="checkbox"><span class="checkbox-text">Ipad</span>   
+   <input type="checkbox"class="checkbox"><span class="checkbox-text">MacBook</span> 
+   <br><input type="submit" value="Submit" class="submit">
+
+    </fieldset>
+   
+</form>
+        </div>
+
+        <div class="right-div">
+
+        </div>
+    </div>
+</body>
+
+</html>
